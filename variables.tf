@@ -1,3 +1,8 @@
+variable "aws_region" {
+  default     = "us-east-1"
+  description = "AWS Region String"
+}
+
 variable "ssh_key_id" {
   description = "A SSH public key ID to add to the VPN instance."
 }
